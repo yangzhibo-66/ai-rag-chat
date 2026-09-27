@@ -1,0 +1,33 @@
+# Environment variables (contains secrets)
+.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Database & storage
+backend/app.db
+backend/uploads/
+backend/faiss_storage/
+backend/chroma_db/
+backend/keyword_index/
+
+# Frontend build & deps
+frontend/node_modules/
+frontend/dist/
+
+# Claude Code
+.claude/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

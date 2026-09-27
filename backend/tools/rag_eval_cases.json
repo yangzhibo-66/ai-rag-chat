@@ -1,0 +1,5 @@
+[
+  {"question": "系统的分块策略是什么样的？", "expected_keywords": ["分块", "切分"]},
+  {"question": "检索是怎么设计的？", "expected_keywords": ["混合检索", "RRF", "BM25"]},
+  {"question": "扫描页怎么处理？", "expected_keywords": ["OCR", "扫描"]}
+]
