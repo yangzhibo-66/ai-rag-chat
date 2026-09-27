@@ -106,7 +106,7 @@ ai-rag-chat/
 python start.py
 ```
 
-自动使用 `backend/.venv`（不存在则用系统 Python），分别在 **8000**（后端）与 **5173**（前端）启动服务。
+脚本会一键完成：缺失 `backend/.env` 时自动从 `.env.example` 生成 → 创建 `.venv` 并安装后端依赖 → 安装前端 `node_modules` → 后端健康检查 → 启动后端（**8000**）与前端（**5173**）并自动打开浏览器。重复安装可用 `python start.py --skip-install` 跳过；端口被占用会提前提示。
 
 ### 方式二：手动启动
 
